@@ -1,0 +1,24 @@
+# GitHub Pages Configuration
+# VF Signal Predictor v7.1
+
+theme: null
+
+# Site metadata
+title: "VF Signal Predictor"
+description: "BetPawa Zambia · Kiron VFL · Signal-Driven Over 3.5 Detector · v7.1"
+url: ""
+
+# Tell GitHub Pages to serve the root index.html directly
+# No Jekyll processing needed — this is a pure HTML/JS app
+include:
+  - index.html
+
+# Exclude unnecessary files from the build
+exclude:
+  - README.md
+  - .gitignore
+  - LICENSE
+  - "*.md"
+
+# Disable Jekyll processing (faster deploys, no build errors)
+plugins: []
